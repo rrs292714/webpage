@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student card</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        /* body{
+            background-color: black;
+        } */
+        .main{
+            border-radius: 10px;
+            
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            /* padding: 20px; */
+            
+        }
+        .student-id{
+            margin: 20px;
+            /* padding: 20px; */
+            box-shadow: 10px;
+        }
+        body{
+            background-color: rgb(231, 217, 199);
+
+        }
+        .grid-container{
+            max-width: 100vh;
+            background-color: rgb(243, 242, 240);
+            display:grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+            border: 1px solid rgb(105, 104, 104);
+            margin: 0;
+            border-radius: 20px;
+            box-shadow:5px 5px rgb(121, 124, 124);
+
+        }
+        .grid-container:hover{
+            transform: scale(0.9);
+        }
+        .grid-item{
+            max-width: 100vw;
+            font-size: 20px;
+            /* height: 100%; */
+            padding: 10px;
+            margin: 0;
+        }
+        .span{
+            color: rgb(121, 189, 174);
+            font-weight:bold;
+        }
+        .img1{
+            float: left;
+            width: 100px;
+            border: 2px solid rgb(121, 189, 174);
+            border-radius: 250px;
+        }
+        .img2{
+            float: right;
+            width: 70px;
+            border: 2px solid rgb(121, 189, 174);
+            border-radius: 10px;
+        }
+        /* @media screen and (max-width:810px) {
+            .student-id{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            .grid-container{
+                max-width: 100vw;
+            }
+            .grid-item{
+                max-width: 50vw;
+            }
+        } */
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="img1" src="./img_avatar.png" alt="logo" >
+            </div>
+            <div class="grid-item">
+                <span class="span">Student Id:</span>1<br>
+                <span class="span">Name:</span>Rahulraj<br>
+                <span class="span">DOB:</span>29-3-2000<br>
+                
+
+            </div>
+
+            <div class="grid-item">
+                <span class="span">College Name:</span>PU<br>
+                <span class="span">College Address:</span>Vadodara<br>
+            </div>
+            <div class="grid-item">
+                <img class="img2" src="./index.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="img1" src="./img_avatar.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span class="span">Class:</span>10th<br>
+                <span class="span">DOB:</span>29-3-2000<br>
+            </div>
+
+            <div class="grid-item">
+                <span class="span">College Name:</span>PU<br>
+                <span class="span">College Address:</span>Vadodara<br>
+            </div>
+            <div class="grid-item">
+                <img class="img2" src="./index.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="img1" src="./img_avatar.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span class="span">Class:</span>10th<br>
+                <span class="span">DOB:</span>29-3-2000<br>
+            </div>
+
+            <div class="grid-item">
+                <span class="span">College Name:</span>PU<br>
+                <span class="span">College Address:</span>Vadodara<br>
+            </div>
+            <div class="grid-item">
+                <img class="img2" src="./index.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="img1" src="./img_avatar.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span class="span">Class:</span>10th<br>
+                <span class="span">DOB:</span>29-3-2000<br>
+            </div>
+
+            <div class="grid-item">
+                <span class="span">College Name:</span>PU<br>
+                <span class="span">College Address:</span>Vadodara<br>
+            </div>
+            <div class="grid-item">
+                <img class="img2" src="./index.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="img1" src="./img_avatar.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span class="span">Class:</span>10th<br>
+                <span class="span">DOB:</span>29-3-2000<br>
+            </div>
+
+            <div class="grid-item">
+                <span class="span">College Name:</span>PU<br>
+                <span class="span">College Address:</span>Vadodara<br>
+            </div>
+            <div class="grid-item">
+                <img class="img2" src="./index.png" alt="logo">
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
