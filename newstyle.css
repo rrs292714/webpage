@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link rel="stylesheet" href="tutorialcss.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(42, 53, 49);
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding:0 30px;
+        }   
+        .column{
+            flex:25%;
+            max-width:25%;
+            padding:10px 10px;
+        }
+        .column img{
+            margin-top: 7px;
+            vertical-align: middle;
+            background-color: rgb(255, 255, 255);
+        }
+        @media  screen and (max-width:700px){
+            .column{
+                flex:50%;
+                max-width:50%;
+            }
+        }
+        @media  screen and (max-width:400px){
+            .column{
+                flex:100%;
+                max-width:100%;
+            }
+        }
+        .header{
+            display: flex;
+            color: rgb(255, 249, 249);
+            text-align: center;
+            padding: 30px;
+            
+        }
+        .column img:hover{
+            transform:scale(1.2);
+        }
+        .img{
+            border-radius: 200px;
+            width: 90px;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <img class="img" src="./radixlogo.jpg" alt="logo" />
+        <nav class="navbar">
+            <a href="./tutorialsassingment.html">Home</a>
+            <a href="./tut-HTML.html">HTML</a>
+            <a href="./tut-CSS.html">CSS</a>
+            <a href="#contact">Bootstrap</a>
+            <a href="#contact">JavaScript</a>
+            <a href="#contact">JQuery</a>
+            <a href="#contact">Mini Project</a>
+            <a href="#contact">SQL</a>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="assignments">
+            <details>
+                <details>
+                    <ul style="list-style-type: square;">
+                        <li><a href="./Pract1-CSS.html">Practice 1</a></li><br>
+                        <li><a href="./Pract2-CSS.html">Practice 2</a></li><br>
+                        <li><a href="./Pract3-CSS.html">Practice 3</a></li><br>
+                        <li><a href="./Pract4-CSS.html">Practice 4</a></li>
+                    </ul>
+
+                    <summary style="list-style-type: disc;">
+                        Practice Exercise
+                    </summary>
+                </details>
+                <details>
+                    <ul style="list-style-type: square;">
+                        <li><a href="./Assign1-CSS.html">Assignment 1</a></li><br>
+                        <li><a href="./Assign2-CSS.html">Assignment 2</a></li>
+                    </ul>
+                    <summary style="list-style-type: disc;">
+                        Assignments
+                    </summary>
+                </details>
+                <summary>
+                    Day 1
+                </summary>
+            </details>
+            <details>
+                <details>
+                    <ul style="list-style-type: square;">
+                        <li><a href="./PRACT1-DAY2CSS.html">Practice 1</a></li><br>
+                        <li><a href="./PRACT2-DAY2CSS.html">Practice 2</a></li><br>
+                        <li><a href="./PRACT3-DAY2CSS.html">Practice 3</a></li><br>
+                        <li><a href="./PRACT4-DAY2CSS.html">Practice 4</a></li><br>
+                        <li><a href="./PRACT5-DAY2CSS.html">Practice 5</a></li><br>
+                        <li><a href="./PRACT6-DAY2CSS.html">Practice 6</a></li><br>
+                        <li><a href="./PRACT7-DAY2CSS.html">Practice 7</a></li><br>
+                        <li><a href="./PRACT8-DAY2CSS.html">Practice 8</a></li>
+                    </ul>
+
+                    <summary style="list-style-type: disc;">
+                        Practice Exercise
+                    </summary>
+                </details>
+                <details>
+                    <ul style="list-style-type: square;">
+                        <li><a href="#">Assignment 1</a></li><br>
+                        <li><a href="#">Assignment 2</a></li>
+                    </ul>
+                    <summary style="list-style-type: disc;">
+                        Assignments
+                    </summary>
+                </details>
+                <summary>
+                    Day 2
+                </summary>
+            </details>
+        </div>
+        <div class="assig-content pract3css">
+            <header class="header">
+                <img class="img" src="imagegallery\codinglogo.jpg" alt="logo">
+                <h1>Coding Image Gallery</h1>
+            </header>
+            <div class="row">
+                <div class="column">
+                    <img src="imagegallery\image1.jpg" alt="image1" style="width:100%">
+                    <img src="imagegallery\image2.jpg" alt="image2" style="width:100%">
+                    <img src="imagegallery\image3.jpg" alt="image3" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="imagegallery\image4.jpg" alt="image4" style="width:100%">
+                    <img src="imagegallery\image5.jpg" alt="image5" style="width:100%">
+                    <img src="imagegallery\image6.jpg" alt="image6" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="imagegallery\image7.jpg" alt="image7" style="width:100%">
+                    <img src="imagegallery\image8.jpg" alt="image8"  style="width:100%">
+                    <img src="imagegallery\image9.jpg" alt="image9" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="imagegallery\image10.jpg" alt="image10" style="width:100%">
+                    <img src="imagegallery\image11.jpg" alt="image11" style="width:100%">
+                    <img src="imagegallery\image12.jpg" alt="image12" style="width:100%">   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
